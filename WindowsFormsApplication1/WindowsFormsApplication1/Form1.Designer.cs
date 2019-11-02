@@ -79,7 +79,7 @@
             this.label_DestinationFile.Name = "label_DestinationFile";
             this.label_DestinationFile.Size = new System.Drawing.Size(69, 13);
             this.label_DestinationFile.TabIndex = 3;
-            this.label_DestinationFile.Text = "Фойл-копия";
+            this.label_DestinationFile.Text = "Файл-копия";
             // 
             // textBox_DestinationFile
             // 
@@ -147,11 +147,15 @@
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(352, 45);
             this.progressBar1.TabIndex = 9;
-            this.progressBar1.Value = 50;
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
+            // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog1_FileOk);
             // 
             // Form1
             // 
@@ -171,6 +175,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
