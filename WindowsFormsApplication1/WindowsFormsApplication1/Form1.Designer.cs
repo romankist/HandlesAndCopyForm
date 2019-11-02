@@ -117,6 +117,7 @@
             this.button_ThreadCopy.TabIndex = 7;
             this.button_ThreadCopy.Text = "Копировать в отдельном потоке";
             this.button_ThreadCopy.UseVisualStyleBackColor = true;
+            this.button_ThreadCopy.Click += new System.EventHandler(this.button_ThreadCopy_Click);
             // 
             // menuStrip1
             // 

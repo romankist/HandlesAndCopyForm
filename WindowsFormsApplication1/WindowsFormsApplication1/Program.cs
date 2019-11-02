@@ -17,11 +17,7 @@ namespace WindowsFormsApplication1
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
-        static int RegularCopy()
-        {
-
-            return 1;
-        }
+        
 
     }
 }

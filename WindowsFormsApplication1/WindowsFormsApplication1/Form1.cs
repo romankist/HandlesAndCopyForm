@@ -27,7 +27,7 @@ namespace WindowsFormsApplication1
             InitializeComponent();
         }
 
-        private void button_Copy_Click(object sender, EventArgs e)
+        private void Copy()
         {
             FileStream fs = new FileStream(sourceFileName, FileMode.Open);    //открытие для чтения
             FileStream fs2 = new FileStream(destFileName, FileMode.Create);    //открытие для записи
@@ -35,10 +35,12 @@ namespace WindowsFormsApplication1
             var size = fs.Length;   //длина
 
             byte[] buf = new byte[1024];
-                        
-            while (fs.Position<fs.Length){
+            progressBar1.Value = 0;
+
+            while (fs.Position < fs.Length)
+            {
                 int readed = fs.Read(buf, 0, 1024); //чтение из файла (возвращает кол-во фактически прочитанных байт)
-                progressBar1.Value = ((int)fs.Position) / (int)fs.Length * 100;
+                progressBar1.Value = (int)(fs.Position / (float)fs.Length * 100);
                 //fs2.Write(buf, 0, 10);    //запись в файл
                 fs2.Write(buf, 0, readed);
                 Thread.Sleep(100);
@@ -49,6 +51,20 @@ namespace WindowsFormsApplication1
             Thread.Sleep(100);  //усыпить поток на 100мс
 
             progressBar1.Value = 100;
+        }
+
+        private void button_Copy_Click(object sender, EventArgs e)
+        {
+            Copy();
+
+        }
+
+        private void button_ThreadCopy_Click(object sender, EventArgs e)
+        {
+            Thread threadCopy = new Thread(new ThreadStart(Copy));
+            
+            threadCopy.Start();
+            
 
         }
 
@@ -84,6 +100,8 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+
 
     }
 }
