@@ -1,0 +1,11 @@
+E:\Documents\вуз\СибУПК\Операционные системы\Лабораторные\Операционные системы (1 семестр)\Completed\Lab4\lab1\ViewCopied\obj\Debug\netcoreapp3.0\ViewCopied.csprojAssemblyReference.cache
+E:\Documents\вуз\СибУПК\Операционные системы\Лабораторные\Операционные системы (1 семестр)\Completed\Lab4\lab1\ViewCopied\obj\Debug\netcoreapp3.0\ViewCopied.AssemblyInfoInputs.cache
+E:\Documents\вуз\СибУПК\Операционные системы\Лабораторные\Операционные системы (1 семестр)\Completed\Lab4\lab1\ViewCopied\obj\Debug\netcoreapp3.0\ViewCopied.AssemblyInfo.cs
+E:\Documents\вуз\СибУПК\Операционные системы\Лабораторные\Операционные системы (1 семестр)\Completed\Lab4\lab1\ViewCopied\bin\Debug\netcoreapp3.0\ViewCopied.exe
+E:\Documents\вуз\СибУПК\Операционные системы\Лабораторные\Операционные системы (1 семестр)\Completed\Lab4\lab1\ViewCopied\bin\Debug\netcoreapp3.0\ViewCopied.deps.json
+E:\Documents\вуз\СибУПК\Операционные системы\Лабораторные\Операционные системы (1 семестр)\Completed\Lab4\lab1\ViewCopied\bin\Debug\netcoreapp3.0\ViewCopied.runtimeconfig.json
+E:\Documents\вуз\СибУПК\Операционные системы\Лабораторные\Операционные системы (1 семестр)\Completed\Lab4\lab1\ViewCopied\bin\Debug\netcoreapp3.0\ViewCopied.runtimeconfig.dev.json
+E:\Documents\вуз\СибУПК\Операционные системы\Лабораторные\Операционные системы (1 семестр)\Completed\Lab4\lab1\ViewCopied\bin\Debug\netcoreapp3.0\ViewCopied.dll
+E:\Documents\вуз\СибУПК\Операционные системы\Лабораторные\Операционные системы (1 семестр)\Completed\Lab4\lab1\ViewCopied\bin\Debug\netcoreapp3.0\ViewCopied.pdb
+E:\Documents\вуз\СибУПК\Операционные системы\Лабораторные\Операционные системы (1 семестр)\Completed\Lab4\lab1\ViewCopied\obj\Debug\netcoreapp3.0\ViewCopied.dll
+E:\Documents\вуз\СибУПК\Операционные системы\Лабораторные\Операционные системы (1 семестр)\Completed\Lab4\lab1\ViewCopied\obj\Debug\netcoreapp3.0\ViewCopied.pdb

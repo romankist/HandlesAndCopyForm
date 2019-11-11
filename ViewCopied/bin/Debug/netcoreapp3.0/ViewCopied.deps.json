@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "ViewCopied/1.0.0": {
+        "runtime": {
+          "ViewCopied.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ViewCopied/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
