@@ -5,3 +5,9 @@ E:\Documents\вуз\СибУПК\Операционные системы\Лаб�
 E:\Documents\вуз\СибУПК\Операционные системы\Лабораторные\Операционные системы (1 семестр)\Completed\Lab4\lab1\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
 E:\Documents\вуз\СибУПК\Операционные системы\Лабораторные\Операционные системы (1 семестр)\Completed\Lab4\lab1\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
 E:\Documents\вуз\СибУПК\Операционные системы\Лабораторные\Операционные системы (1 семестр)\Completed\Lab4\lab1\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+Z:\os\lab4\lab1\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+Z:\os\lab4\lab1\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+Z:\os\lab4\lab1\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+Z:\os\lab4\lab1\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+Z:\os\lab4\lab1\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+Z:\os\lab4\lab1\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb

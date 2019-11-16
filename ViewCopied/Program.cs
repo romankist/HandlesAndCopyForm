@@ -8,7 +8,6 @@ namespace ViewCopied
     {
         private static void ShowFile(string sourceFileName)
         {
-            //string sourceFileName = "C:\\Users\\Kaccel\\Documents\\CopyTest\\321.txt";
             FileStream fs = new FileStream(sourceFileName, FileMode.Open);    //открытие для чтения
             StreamReader strread = new StreamReader(fs);
 
@@ -26,7 +25,12 @@ namespace ViewCopied
         }
         static void Main(string[] args)
         {
-            string sourceFileName = "C:\\Users\\Kaccel\\Documents\\CopyTest\\321.txt";
+            EventWaitHandle testEvent = new EventWaitHandle(false, EventResetMode.AutoReset, "testEvent");
+
+            Console.WriteLine("Waiting Copy...");
+            testEvent.WaitOne();
+
+            string sourceFileName = "Z:\\os\\lab3\\testdest\\poka.txt";
             Console.WriteLine("Viewing file: " + sourceFileName);
             ShowFile(sourceFileName);
         }

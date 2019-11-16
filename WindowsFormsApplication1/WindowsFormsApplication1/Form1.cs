@@ -50,7 +50,8 @@ namespace WindowsFormsApplication1
             fs.Close();
             fs2.Close();
 
-            Thread.Sleep(500);  //усыпить поток на 100мс
+            EventWaitHandle testEvent = new EventWaitHandle(true, EventResetMode.AutoReset, "testEvent");
+            testEvent.Set();
 
             progressBar1.Value = 100;
         }
